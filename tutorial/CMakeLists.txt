@@ -18,7 +18,7 @@ find_package(CUDAToolkit)
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
 find_package(PCL 1.5 REQUIRED)
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4.7 REQUIRED)
 
 
 

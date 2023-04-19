@@ -1,3 +1,8 @@
+export CUDA_PATH=/usr/local/cuda
+export CUDA_HOME=/usr/local/cuda
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
+
+
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
